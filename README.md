@@ -5,11 +5,11 @@ MonFormulaire est une application React destinée à créer un formulaire d'insc
 Permet de collecter des informations utilisateur telles que le nom, le prénom, l'âge, l'email et le mot de passe, et de valider ces données avant de les stocker dans un store Redux.
 
 ## Technologies utilisées
-React : Bibliothèque JavaScript pour construire des interfaces utilisateur interactives.
-Redux Toolkit : Outils et meilleures pratiques pour la gestion de l'état avec Redux.
-React Hook Form : Bibliothèque permettant une gestion efficace et performante des formulaires dans React.
-React-Redux : Liaisons officielles entre React et Redux.
-CSS : Pour le style et la présentation de l'application.
+- React : Bibliothèque JavaScript pour construire des interfaces utilisateur interactives.
+- Redux Toolkit : Outils et meilleures pratiques pour la gestion de l'état avec Redux.
+- React Hook Form : Bibliothèque permettant une gestion efficace et performante des formulaires dans React.
+- React-Redux : Liaisons officielles entre React et Redux.
+- CSS : Pour le style et la présentation de l'application.
 
 ## Description des fonctions utilisées dans MonFormulaire.jsx
 Le composant MonFormulaire.jsx est un composant clé de l'application, gérant le formulaire d'inscription, la validation des données et leur envoi au store Redux. Voici une description des principales fonctions et hooks utilisés dans ce fichier :
