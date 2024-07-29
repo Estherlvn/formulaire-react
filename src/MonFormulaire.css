@@ -1,0 +1,91 @@
+/* MonFormulaire.css */
+
+/* Appliquer la police Poppins à tout le corps de la page */
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Style pour le conteneur du formulaire */
+  .form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(90, 90, 90, 0.1);
+  }
+  
+  /* Style pour chaque champ de formulaire */
+  .form-container div {
+    margin-bottom: 15px;
+  }
+  
+  /* Style pour les labels */
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styles spécifiques pour les champs */
+  .form-container .short-input {
+    width: 50%;
+  }
+  
+  .form-container .medium-input {
+    width: 75%;
+  }
+  
+  .form-container .long-input {
+    width: 100%;
+  }
+  
+  /* Style pour les inputs */
+  .form-container input[type="text"],
+  .form-container input[type="number"],
+  .form-container input[type="email"],
+  .form-container input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Style pour les messages d'erreur */
+  .form-container span {
+    color: #d9534f;
+    font-size: 0.9em;
+  }
+  
+  /* Style pour les boutons */
+  .form-container input[type="submit"],
+  .form-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 10px;
+  }
+  
+  .form-container input[type="submit"] {
+    background-color: #5bc0de;
+    color: white;
+  }
+  
+  .form-container button {
+    background-color: #e28684;
+    color: white;
+  }
+  
+  /* Hover effect for buttons */
+  .form-container input[type="submit"]:hover,
+  .form-container button:hover {
+    opacity: 0.9;
+  }
+  
