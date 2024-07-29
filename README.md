@@ -1,5 +1,8 @@
 # MonFormulaire React
-MonFormulaire est une application React destinée à créer un formulaire d'inscription. Cette application utilise Redux Toolkit pour la gestion de l'état et React Hook Form pour la gestion des formulaires. Elle permet de collecter des informations utilisateur telles que le nom, le prénom, l'âge, l'email et le mot de passe, et de valider ces données avant de les stocker dans un store Redux.
+MonFormulaire est une application React destinée à créer un formulaire d'inscription. Cette application utilise:
+- Redux Toolkit pour la gestion de l'état.
+- React Hook Form pour la gestion des formulaires.
+Permet de collecter des informations utilisateur telles que le nom, le prénom, l'âge, l'email et le mot de passe, et de valider ces données avant de les stocker dans un store Redux.
 
 ## Technologies utilisées
 React : Bibliothèque JavaScript pour construire des interfaces utilisateur interactives.
